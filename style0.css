@@ -5,37 +5,28 @@
 	text-align: center;
 	vertical-align: middle;
 	color: black;
-	font-family: fantasy;
-	font-size: 60px;
+	font-family: serif;
+	font-size: 50px;
 	font-weight: bolder;
 	}
 .st{
-	font-size: 30px;
+	font-size: 40px;
+	font-family: fantasy;
 }
 
-.else{
-	width: 100%;
-	background-color: black;
-	
-	
-}
 .else:hover{
 	transition: all 0.5s ease;
     background-color: brown;
 }
 
-.home{
-	width: 100%;
-	background-color: black;
-
-	
-}
 .home:hover{
 	background-color: green;
 	transition: all 0.5s ease;
 }
 
 .home,.else{
+	width: 100%;
+	background-color: black;
 	font-size: 30px;
 	color: #fff9cf;
 	font-family: serif;
@@ -44,16 +35,50 @@
 
 }
 .row{
-	height: 30%
-	display: flex;
-	flex-wrap: wrap;
+	height: 30%;
     
 }
 
-  @media (max-width: 800px) {
+.list-group{
+	width: 100%;
+	height: 100% ;
+	background-color: lightgrey;
+	font-size: 18px;
+}
+
+.list-group-item{
+	line-height: 400%;
+
+}
+
+.content-heading{
+	font-size: 40px;
+	font-weight: bolder;
+} 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 40%;
+ 
+}
+
+p,.list,td,th{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+  @media (max-width: 880px) {
   #top {
-      font-size: 40px;
-      height: 15%;
+      font-size: 30px;
+      height: 10%;
 
   }
   .st{
@@ -62,7 +87,36 @@
   .home,.else{
   	font-size: 20px;
   }
-
+  p,.list{
+  	font-size: 10px;
   }
+  
+
+#sbimg img{
+  	height: 0px;
+  	width: 0px;
+  } 
+
+  th,td{
+    font-size: 10px;
+  }
+
+  .content-heading{
+  	font-size: 30px;
+  }
+  .list-group{
+  	font-size: 10px;
+  }
+  
+ }
+
+@media (max-width: 600px) {
+	.list-group{
+		font-size: 3px;
+		width: 0px;
+		height: 0px;
+
+	}
+}
 
 
