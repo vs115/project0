@@ -6,11 +6,9 @@
 	vertical-align: middle;
 	color: black;
 	font-family: serif;
-	font-size: 50px;
 	font-weight: bolder;
 	}
 .st{
-	font-size: 40px;
 	font-family: fantasy;
 }
 
@@ -28,9 +26,9 @@
 	width: 100%;
 	background-color: black;
 	font-size: 30px;
-	color: #fff9cf;
 	font-family: serif;
 	border-color: white;
+
 }
 
 
@@ -80,13 +78,10 @@ p,.list,td,th{
 
   @media (max-width: 880px) {
   #top {
-      font-size: 21px;
       height: 10%;
+      
+    }
 
-  }
-  .st{
-  	font-size: 20px;
-  }
   .home,.else{
   	font-size: 12px;
   }
@@ -112,10 +107,6 @@ p,.list,td,th{
   	height: 100px;
   }
   
-  .rank2{
-    width: 50px;
-    height: 100px;
-  }
   .rank1{
     height: 50px;
     width: 25px;
@@ -144,8 +135,11 @@ p,.list,td,th{
 		height: 0px;
 
 	}
-
+  
+  .st{
+    display: none;
+  }
+  
 }  
-
 
 
