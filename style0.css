@@ -46,8 +46,9 @@
 	font-size: 18px;
 }
 
-.list-group-item{
+ul .list-group-item{
 	line-height: 400%;
+  background-color: lightgrey;
 
 }
 
@@ -68,9 +69,9 @@ p,.list,td,th{
 	font-size: 20px;
 }
 
-
-
-
+table{
+  text-align: center;
+}
 
 
 
@@ -86,7 +87,7 @@ p,.list,td,th{
   	font-size: 12px;
   }
   p,.list,th,td{
-  	font-size: 10px;
+  	font-size: 9.2px;
   }
   
 
@@ -96,7 +97,7 @@ p,.list,td,th{
   } 
 
   .content-heading{
-  	font-size: 30px;
+  	font-size: 20px;
   }
   .list-group{
   	font-size: 10px;
@@ -126,6 +127,7 @@ p,.list,td,th{
     width: 65px;
   }
 
+
 }
 
 @media (max-width: 600px) {
@@ -136,9 +138,6 @@ p,.list,td,th{
 
 	}
   
-  .st{
-    display: none;
-  }
   
 }  
 

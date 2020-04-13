@@ -1,0 +1,31 @@
+$color: #fff9cf;
+
+%navbar{
+	color: $color;
+}
+.home{
+	@extend %navbar;
+}
+
+.else{
+	@extend %navbar;
+}
+
+
+#top{
+	font-size: 50px;
+
+	.st{
+         font-size: 40px;
+	}
+}
+
+@media (max-width: 880px) {
+	#top{
+	font-size: 21px;
+
+	.st{
+	font-size: 20px;
+	}
+	}
+}
