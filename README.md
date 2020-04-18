@@ -1,3 +1,5 @@
+# vs115
+
 # Project0
 
 I created a website on the topic **"Indian Armed Forces"**. It has 4 HTML pages which are all interlinked. The **4 HTML pages are: HOME, ARMY, NAVY, and AIR FORCE**. Every HTML page has 1 **table** and 1 **list**. Ever webpage has 4 to 5 sections which are linked through a side navigation bar. Every section has 1 head **image and tables have many images**.
@@ -9,4 +11,3 @@ Also I have added Bootstrap ***BUTTON* component** for internal navigation and m
 **Media query** is applied to all elements and entire website is mobile responsive.
 
 [This is the link to Project0](https://vs115.github.io/project0.0/Home.html)
-
